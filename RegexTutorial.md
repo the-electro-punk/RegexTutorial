@@ -44,4 +44,5 @@ EX: Test@Gmail.Org would return true whereas TestGmail. would return false becau
      We can reduce the range of letters or numbersif needed. A-Z finds ALL uppercase letters but A-J would only find all uppercase letters up until J while 0-5 will only look for 0,1,2,3,4,5 and nothing else.
 
 # Author
-    I am the author of this tutorial and I hope you found this tutorial informative
+    I am the author of this tutorial and I hope you found this tutorial informative.
+    Here is a link to my github; 
