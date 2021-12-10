@@ -2,7 +2,7 @@
 This tutorial will showcase an example of what Regular Expressions can do. The expression chosen determines if a textstring is an email address.
 
 ## Summary
-This Regular Expression (A.K.A. Regex) examines an email address written by the user. The Regex is designed to search for a word, followed by @,then another word, followed by a period, then finally one last word. 
+This Regular Expression (A.K.A. Regex) examines an email address written by the user. The Regex is designed to search for a word, followed by @,then another word, followed by a period, then finally one last word. As this specific Regex doesn't use EVERY possible component of a Regex, we will only discuss the components it contains.
 
 the Regex is as follows /^([A-Za-z0-9_\.-]+)@([\dA-Za-z\.-]+)\.([A-Za-z\.]{2,6})$/
 
@@ -43,17 +43,5 @@ EX: Test@Gmail.Org would return true whereas TestGmail. would return false becau
      Within our regex, as previously stated, [A-Za-z0-9] will look for any number or letter. A-Z refers to all uppercase letters, a-z refers to all lowercase letters, and 0-9 refers to all digits. In this context, the regex will search for either an uppercase letter, a lowercase letter, and/or a number. (EX: [A-Za-z0-9] will match A, A1, a, a1, Aa1, 1, etc.)
      We can reduce the range of letters or numbersif needed. A-Z finds ALL uppercase letters but A-J would only find all uppercase letters up until J while 0-5 will only look for 0,1,2,3,4,5 and nothing else.
 
-
-
-# extra
-asterix is a wild card
-/^([A-Za-z0-9_\.-]+)@([\dA-Za-z\.-]+)\.([A-Za-z\.]{2,6})$/
-
-Quantifiers are elements that can determine how much of the last component is used. 
-an * looks for zero or more of a component (EX: abc* returns ab, abc, abcc, etc.)
-an + looks for one or more of a component (EX: abc+ looks for abc, abcc, abccc, etc.)
-an ? looks for zero or one of a component (EX: abc? looks for ab & abc)
-a number in curly brackets specifies a specific amount (EX: abc{2} will only look for abcc as only 2 c is specified)
-adding empty space or a number will specify a range of numbers (EX: abc{2,} looks for abcc, abccc, abcccc, etc. as 2 or more c is specified while abc{2,5} only looks for abcc-abccccc as 2-5 c is specified)
-parenthesis are used to group components together (EX: a(bc)* will look for abc, abcbc, abcbcbc, etc. as one or more bc is specified)
-numbers can be used with parenthesis as well (a(bc){2,5} will look for abcbc-abcbcbcbcbc)
+# Author
+    I am the author of this tutorial and I hope you found this tutorial informative
