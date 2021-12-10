@@ -45,4 +45,7 @@ EX: Test@Gmail.Org would return true whereas TestGmail. would return false becau
 
 # Author
     I am the author of this tutorial and I hope you found this tutorial informative.
-    Here is a link to my github; 
+    Here is a link to my github; https://github.com/the-electro-punk/RegexTutorial
+
+    the tutorial is written within the RegexTutorial markdown file
+    The javascript code used is filed under Code while the webpage is index.html
